@@ -1,0 +1,176 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	padding: 10px;
+	width : 160px;
+	padding-top:1px;
+	padding-left: 1px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+   
+}
+
+#xo-canvas-leftcolumn .xo-block1 { 
+  margin-bottom : 10px; 
+  background-color : #E6EFFF; 
+ 
+} 
+#xo-canvas-leftcolumn .xo-block2 { 
+  margin-bottom : 10px; 
+  background-color : #FFFFDB; 
+  
+} 
+#xo-canvas-leftcolumn .xo-block3 { 
+  margin-bottom : 10px; 
+  background-color : #FFF3F3; 
+  
+} 
+#xo-canvas-leftcolumn h3.xo-blocktitle1, 
+#xo-canvas-leftcolumn h3.xo-blocktitle2, 
+#xo-canvas-leftcolumn h3.xo-blocktitle3 { 
+  margin : 0 0 2px 0; 
+  padding : 3px 3px 3px 6px; 
+  font-size : 1.1em; 
+  font-weight : bold;   
+} 
+#xo-canvas-leftcolumn h3.xo-blocktitle1 {color : #0033CC;} 
+#xo-canvas-leftcolumn h3.xo-blocktitle2 {color : #CC6600;} 
+#xo-canvas-leftcolumn h3.xo-blocktitle3 {color : #CD2525;} 
+#xo-canvas-leftcolumn .xo-blockcontent {   
+  padding : 3px 8px 5px 8px; 
+  line-height : 1.2em; 
+} 
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	width : 170px;
+	padding-left: 1px;
+	background: 				url("../img/lee.jpg") repeat-y top;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle1 {
+    color : #000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-left:  4px ;
+	margin-right:  4px ;
+	height:25px;
+	background: 				url("../img/left3.gif") no-repeat;
+	padding-top:4px;
+	} 
+#xo-canvas-rightcolumn h3.xo-blocktitle2 {
+    color : #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-left:  4px ; margin-right:  4px ;
+	height:25px;
+	background: 				url("../img/left.gif") no-repeat;
+	padding-top:4px
+	
+	} 
+#xo-canvas-rightcolumn h3.xo-blocktitle3 {color : #fff; 
+    
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-left:  4px ; margin-right:  4px ;
+	height:25px;
+	background: 				url("../img/left2.gif") no-repeat;
+	padding-top:4px
+}
+
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color:#00008B;
+	padding : 3px 3px 3px 15px; 
+    line-height : 1.2em; 
+	
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#000;
+  font-weight: bold;
+    border-bottom: 1px solid  #191970;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  border-bottom: 1px solid  #191970;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 10px;
+  color: #000;
+  font-weight: bold;
+  background: 		#B2DFEE		url("../img/h2.png") no-repeat;
+  padding-left: 20px;
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+#xo-topleftblocks{border-right: 1px solid  #B2DFEE;  }
+ #xo-bottomrightblocks {border-left: 1px solid  #B2DFEE;}
+ 
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px;
+  font-size: .8em; 
+  font-weight:					bold;
+  color:#191970;
+  padding-left: 15px;	
+}
+
+#mainmenu a:hover {color:#009ACD;}
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .7em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+padding-bottom:20px;
+}
+
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+}
+#usermenu a:hover {color:#009ACD}
+
+
+

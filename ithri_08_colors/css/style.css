@@ -1,0 +1,348 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("blocks.css");
+@import url("cbb.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	font-family:  Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background: #36648B;	
+	
+		
+}
+body {
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 920px;
+	margin: 0 auto;
+	background:  url("../img/content.png") top repeat-y;	
+
+	
+}
+#xo-canvas {
+	width: 920px;
+	margin: 0 auto;
+}
+#xo-canvas-content {
+   
+}
+
+	
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	background: url("../img/header.gif") no-repeat;
+	height: 120px;
+	
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:10px;
+	padding-top:10px;
+} 
+
+/* ---------- Bannières ---------- */
+#xo-banner {
+	color:							#666;
+	clear:							both;
+	width:							920px;
+	height:							70px;
+	padding-top:                    35px;
+	position:						absolute;
+}
+
+#xo-banner.commercial {
+	height:							70px;
+}
+
+#xo-banner-ad {
+	position:						absolute;
+	top:								35px;
+	left:							400px;
+	
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+
+/* ---------------------- Dolphin nav ---------------------- */
+#dolphincontainer{
+	position:relative;
+	height:38px;
+	color:#E0E0E0;
+	background:#143D55;
+	width:100%;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	}
+
+#dolphinnav{
+	position:relative;
+	height:33px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#fff url("../img/dolphin_bg.gif") repeat-x bottom left;
+	padding:0 0 0 20px;
+	}
+
+#dolphinnav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	float:left;
+	}
+
+#dolphinnav ul li{
+	display:block;
+	float:left;
+	margin:0 1px;
+	}
+
+#dolphinnav ul li a{
+	display:block;
+	float:left;
+	color:#EAF3F8;
+	text-decoration:none;
+	padding:0 0 0 20px;
+	height:33px;
+	}
+
+#dolphinnav ul li a span{
+	padding:12px 20px 0 0;
+	height:21px;
+	float:left;
+	}
+
+#dolphinnav ul li a:hover{
+	color:#fff;
+	background:transparent url("../img/dolphin_bg-OVER.gif") repeat-x bottom left;
+	}
+
+#dolphinnav ul li a:hover span{
+	display:block;
+	width:auto;
+	cursor:pointer;
+	}
+
+#dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{
+	color:#fff;
+	background:#1D6893 url("../img/dolphin_left-ON.gif") no-repeat top left;
+	line-height:275%;
+	}
+
+#dolphinnav ul li a.current span{
+	display:block;
+	padding:0 20px 0 0;
+	width:auto;
+	background:#1D6893 url("../img/dolphin_right-ON.gif") no-repeat top right;
+	height:33px;
+	}
+/* ---------------------- END Dolphin nav ---------------------- */
+
+
+
+
+
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background:  url("../img/footer.jpg");
+	width: 920px;
+	height:60px;
+	margin:0 auto;
+	
+}
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #0033CC;
+	padding-top:13px;
+	
+	text-align: center;	
+	
+}
+.xo-foottext a{
+	color: #0033CC;
+	
+}
+.xo-foottext a:hover{
+	color: #CC6600;
+	text-decoration: underline;
+}
+
+/* --------- Forms --------- */
+.xo-block form {
+        margin: 0;
+        padding: 0 0 0 8px;
+}
+#xo-content form {
+        margin: 0;
+        color: inherit;
+        background: transparent;
+        padding: 0;
+}
+.xo-formButtons, .xo-formButton, button {
+        padding: .25em;
+        text-align: center;
+}
+label {
+        padding: 0;
+        color: inherit;
+        background: transparent;
+}
+.xo-formfield {
+        margin-bottom: .2em;
+        color: inherit;
+        background: transparent;
+}
+#xo-content .xo-formfield.required label:after {
+        content: '*';
+        color: #ff0000;
+        background-color: #fff;
+}
+select {
+        color: #333;
+        background-color: #fff;
+        font-size: .9em;
+        border: 2px inset #f1f3f8 !important;
+	    max-width: 50%;
+}
+select[name=timezone_offset] {
+        font-size: .9em;
+}
+button,input[type=submit], input[type=reset], input[type=button], .xo-formbuttons, .formButton, button {
+        margin: 3px 0 3px 0;
+        background: #44bbee;
+        color: #fafafa;
+        font-size: .9em;
+        font-weight: bold;
+        border: 1px solid #4c9ceb;
+        cursor: pointer;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,.xo-formbuttons:hover, .formButton:hover, button:hover  {
+        background: #4c9ceb;
+        color: #fafafa;
+	    border: 1px solid #44bbee;
+        cursor: pointer;
+}
+input[type=text], input[type=password], input[type=checkbox], input[type=file], textarea {
+        border: 1px solid #ddd;
+        margin: 2px 5px 2px 0;
+        padding-left: .2em;
+        color: inherit;
+        background-color: #fff;
+		
+		
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=file]:hover {
+        color: #333;
+        background-color: #E9E9E9;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:hover, input[type=file]:focus/*, textarea:hover*/ {
+        background-color: #f1f2f3;
+        color: #333;
+        border-color: #44bbee;
+        outline: 1px solid #44bbee;
+}
+input[type=radio] {
+    margin: 0 5px 0 5px;
+}
+textarea {
+    width: 95%;
+    overflow: auto;
+    
+}
+label {font-weight: bold;}
+fieldset {
+        padding: 1em;
+        line-height: 1.8em;
+}
+fieldset a {
+        color: #ff0000;
+        background-color: inherit;
+        font-weight: bold;
+        text-transform: uppercase;
+}
+fieldset a:hover {
+        text-decoration: underline;
+}
+legend {
+        font-size: 1.1em;
+        font-weight: bold;
+}
+
+
+/* --------- System module -------- */
+/* --- system_redirect ---*/
+#xo-redirect {
+	margin: 10px 80px 10px 80px;
+	background-color: #fafafa;
+	padding: 8px;
+	line-height: 1.4em;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+/* --- system_siteclosed --- */
+#xo-siteclosed {
+	margin: 10px 200px 10px 200px;
+	background-color: #fafafa;
+	padding: 8px;
+	line-height: 1.6em;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+#xo-siteclosed strong {
+	display: block;
+	font-style: normal;
+}
+#xo-siteclosed label {
+	font-size: .9em;
+	font-weight: normal;
+}
+#xo-siteclosed input {margin: 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
